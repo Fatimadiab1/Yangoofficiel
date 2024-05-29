@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BARRE DE NAVIGATION */
+.barre {
+    background-color: red;
+    margin-top: -8px;
+    margin-bottom: -10px;
+}
+.logo {
+    width: 100px;
+    margin: 35px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 22px;
+    margin: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.nav-link:hover {
+    color: black;
+    transition: color 0.3s ease-in;
+}
+
+.langue {
+    color: white;
+    font-size: 22px;
+    margin-right: 26px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+.dropdown-menu {
+    border-width: 0;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: white;
+    color: black;
+}
+
+.dropdown-item:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(164, 164, 164);
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* BANNIERE */
+.jumbotron {
+    background-image: url(IMAGE/coupleyango.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 890px;
+    max-width: 100%;
+}
+
+.Video {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.frame {
+    padding: 10px;
+    margin-top: -155px;
+
+}
+
+.letters {
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+    text-align: start;
+    letter-spacing: normal;
+    font-family: HFWhale;
+    margin-left: 8px;
+    padding-top: 400px;
+}
+
+
+.bouton {
+    color: white;
+    padding: 15px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    border-width: 0px;
+    background-color: red;
+    width: 330px;
+    height: 70px;
+    margin-left: 8px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.bouton:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: background-color 0.2s ease-in;
+
+}
+
+/* PARTIE1 */
+.partie2 {
+    margin-top: 150px;
+}
+
+.block1 {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: start;
+}
+
+.block2 {
+    width: 100%;
+    margin-top: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.block3 {
+    width: 100%;
+    margin-top: 100px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.grand {
+    color: black;
+    font-family: HFWhale;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.petit {
+    font-family: sans-serif;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.paragraphe {
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.Modif {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgsec2 {
+    width: 100%;
+    margin-top: 150px;
+}
+
+/* PARTIE2 */
+
+.bouton2 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border: none;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: start;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 180px;
+    justify-content: center;
+}
+
+.bouton2:hover {
+    background-color: red;
+    color: white;
+    transition: background-color 0.3s ease-in;
+}
+
+#pays {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.ville {
+    font-size: 22px;
+}
+
+.Contain {
+    margin-top: 150px;
+    background-color: #F5F5F5;
+    width: 100%;
+    padding: 50px;
+    height: auto;
+
+}
+
+.Case1 {
+    margin-top: 50px;
+    padding-left: 80px;
+}
+
+.Case2 {
+    margin-top: 50px;
+    padding-left: 100px;
+}
+
+.text-shadow {
+    color: black;
+    font-weight: 600;
+    font-family: HFWhale;
+    font-size: 55px;
+    text-align:start;
+  
+}
+.text-shadow-drop-tl {
+	animation: text-shadow-drop-tl 0.6s both;
+}
+@keyframes text-shadow-drop-tl {
+    0% {
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      text-shadow: -6px -6px 18px rgba(0, 0, 0, 0.35);
+    }
+  }
+/* PARTIE3 */
+.Client {
+    margin-top: 120px;
+}
+.Doc {
+font-size:20px;
+font-family: sans-serif;
+padding: 100px;
+text-align: center;
+}
+.ligne{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.bouton3 {
+    background-color: red;
+    border-radius: 30px;
+    border: none;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    margin: 10px;
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+
+}
+
+.bouton3:hover {
+    background-color: black;
+    transition: background-color 0.3s ease-in;
+}
+
+/* PARTIE4 */
+.bouton4 {
+    background-color: red;
+    border-radius: 30px;
+    border: none;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    margin: 10px;
+    width: 250px;
+    height: 60px;
+    padding: 10px;
+}
+
+.bouton4:hover {
+    background-color: black;
+    transition: background-color 0.3s ease-in;
+}
+
+.chauffeur {
+    margin-top: 100px;
+}
+
+/* PARTIE5 */
+
+.accor {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.accordion {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.accordion-item {
+    border: 0px;
+}
+
+.accordion-button {
+    background-color: rgb(239, 239, 239);
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.petit2 {
+    font-family: sans-serif;
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.petit2:hover {
+    color: gray;
+    transition: color 0.2s ease-in-out;
+}
+
+footer {
+    padding: 70px;
+}
+
+
+@media screen and (max-width:1170px) {
+    .Lang {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .globe {
+        display: none;
+    }
+
+    .globes {
+        display: none;
+    }
+
+    .letters {
+        color: white;
+        font-size: 60px;
+        font-weight: 600;
+        text-align: start;
+        letter-spacing: normal;
+        font-family: HFWhale;
+        margin-left: 35px;
+        padding-top: 350px;
+    }
+
+    .Video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .frame {
+        padding: 10px;
+        margin-top: 155px;
+    }
+    .bouton3 {
+        margin-left: -100px;
+     
+     }
+}
+
+@media screen and (max-width:1000px) {
+    .Lang {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jumbotron {
+        background-image: url(/IMAGE/coupleyango.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .globe {
+        display: flex;
+        margin: 35px;
+    }
+}
